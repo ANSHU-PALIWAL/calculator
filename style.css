@@ -1,0 +1,103 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(109.6deg, rgba(218, 185, 252, 1) 11.2%, rgba(125, 89, 252, 1) 91.1%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-cen {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 0;
+}
+
+.calc-center {
+    position: absolute;
+    text-align: center;
+    background: #00000038;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+button {
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+.exp {
+    width: 123px;
+}
+
+button:hover {
+    animation: slidernbw 5s linear infinite;
+    color: rgb(0, 166, 255);
+}
+
+@keyframes slidernbw {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.input-div {
+    margin-bottom: 10px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 10px;
+    width: calc(100% - 10px);
+    border-radius: 5px;
+}
+
+/*footer css */
+
+.main-footer {
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.float-right {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.float-right a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*footer css */
